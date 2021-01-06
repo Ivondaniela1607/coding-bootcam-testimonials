@@ -19,20 +19,39 @@ html{
 body{
   font-family: 'Inter', sans-serif;
   font-size: 3.2rem;
-  background-image: url('../images/pattern-bg.svg');
-  background-size: auto;
-  background-repeat: no-repeat;
-  object-fit: cover;
+  
 }
 
 .main{
   text-align: center;
-  padding-top: 80px;
+  padding-top: 20px;
+  
+  
 }
 .container-img{
+  border: 1px red solid;
+  background-image: url('../images/pattern-bg.svg');  
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: cover;
+  width: 90%;
   margin: 0 auto;
+  padding-bottom: 20px;
+  
 }
 
 .container-img img{
-  width: 280px;
+  
+  width: 70%;
+  max-width: 400px;
+  min-width: 260px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.container-detail{
+  background-image: url('../images/pattern-quotes.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  bac
 }
